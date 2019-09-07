@@ -1,8 +1,11 @@
 import React from 'react'
-import './button.style.scss'
+import styled from 'styled-components'
+import { ButtonContainer } from './button.styles'
 
 const Button = ({title, link}) => (
-  <a className='button' href={link}>{title}</a>
+  <ButtonContainer href={link}>
+    hello
+  </ButtonContainer>
 )
 
 export default Button

@@ -1,0 +1,8 @@
+$colors: (
+  'main': tomato,
+  'secondary': #fa923f,
+  'background': lightgrey
+);
+
+$button-bgcolor: map-get($colors, 'main');
+$button-bgcolor-hover: map-get($colors, 'secondary');

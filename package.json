@@ -7,7 +7,8 @@
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.3",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "sass": "^1.23.0-module.beta.1"

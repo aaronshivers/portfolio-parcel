@@ -1,0 +1,11 @@
+@mixin button($button-bgcolor, $button-bgcolor-hover) {
+  background-color: $button-bgcolor;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+
+  &:hover {
+    background-color: $button-bgcolor-hover;
+    cursor: pointer;
+  }
+}
