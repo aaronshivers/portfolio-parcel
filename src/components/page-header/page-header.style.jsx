@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import Image from '../../assets/bg.webp'
 
 export const PageHeaderContainer = styled.header`
-  background-image: radial-gradient(black, transparent),
-    url(${Image});
+  background-image: url(${Image});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
