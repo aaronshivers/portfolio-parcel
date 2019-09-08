@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Image from '../../assets/bg.jpg'
+import Image from '../../assets/bg.webp'
 
 export const PageHeaderContainer = styled.header`
   background-image: radial-gradient(rgba(0, 0, 0, 0.6), transparent),

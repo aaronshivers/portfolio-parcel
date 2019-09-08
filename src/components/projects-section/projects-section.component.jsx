@@ -7,23 +7,28 @@ const projects = [
   {
     title: 'Project',
     subtitle: 'this is a project',
-    image: 'https://via.placeholder.com/280x200'
+    image: 'https://via.placeholder.com/280x200',
+    alt: 'project'
   }, {
     title: 'Project',
     subtitle: 'this is a project',
-    image: 'https://via.placeholder.com/280x200'
+    image: 'https://via.placeholder.com/280x200',
+    alt: 'project'
   }, {
     title: 'Project',
     subtitle: 'this is a project',
-    image: 'https://via.placeholder.com/280x200'
+    image: 'https://via.placeholder.com/280x200',
+    alt: 'project'
   }, {
     title: 'Project',
     subtitle: 'this is a project',
-    image: 'https://via.placeholder.com/280x200'
+    image: 'https://via.placeholder.com/280x200',
+    alt: 'project'
   }, {
     title: 'Project',
     subtitle: 'this is a project',
-    image: 'https://via.placeholder.com/280x200'
+    image: 'https://via.placeholder.com/280x200',
+    alt: 'project'
   }
 ]
 
