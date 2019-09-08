@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.3",
     "react": "^16.9.0",
@@ -14,7 +16,10 @@
     "sass": "^1.23.0-module.beta.1"
   },
   "scripts": {
-    "dev": "parcel ./src/index.html"
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "aaron shivers",
