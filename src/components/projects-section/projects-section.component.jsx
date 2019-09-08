@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionHeader from '../section-header/section-header.component'
 import Project from '../project/project.component'
+import { ProjectsSectionOuterContainer, ProjectsSectionInnerContainer } from './projects-section.style'
 
 const projects = [
   {
@@ -27,14 +28,16 @@ const projects = [
 ]
 
 const ProjectsSection = () => (
-  <section className="projects__section">
+  <ProjectsSectionOuterContainer>
     <SectionHeader title='Projects' subtitle='these are my projects' />
-    {
-      projects.map((project, i) => (
-        <Project key={i} {...project} />
-      ))
-    }
-  </section>
+    <ProjectsSectionInnerContainer>
+      {
+        projects.map((project, i) => (
+          <Project key={i} {...project} />
+        ))
+      }
+    </ProjectsSectionInnerContainer>
+  </ProjectsSectionOuterContainer>
 )
 
 export default ProjectsSection

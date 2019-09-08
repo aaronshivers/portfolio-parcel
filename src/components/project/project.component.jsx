@@ -1,7 +1,8 @@
 import React from 'react'
+import { ProjectContainer } from './project.style'
 
 const Project = ({title, subtitle, image}) => (
-  <div className="project">
+  <ProjectContainer>
     
     <header className="project__header">
       <h3>{title}</h3>
@@ -12,7 +13,7 @@ const Project = ({title, subtitle, image}) => (
       <img className="project__image" src={image} />
     </div>
 
-  </div>
+  </ProjectContainer>
 )
 
 export default Project
