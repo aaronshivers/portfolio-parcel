@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
 export const ButtonContainer = styled.a`
-  background-color: #101213;
-  color: white;
+  background-color: whitesmoke;
+  color: #101213;
   text-decoration: none;
   padding: 1rem;
+  margin: 0.5rem;
 
   &:hover {
-    background-color: limegreen;
+    color: whitesmoke;
+    background-color: #083219;
     cursor: pointer;
   }
 `

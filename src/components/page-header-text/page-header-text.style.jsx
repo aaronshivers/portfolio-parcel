@@ -7,4 +7,12 @@ export const PageHeaderTextContainer = styled.div`
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > div {
+    margin-bottom: 1rem;
+  }
 `
