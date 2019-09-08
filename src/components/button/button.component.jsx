@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ButtonContainer } from './button.styles'
+import { ButtonContainer } from './button.style'
 
 const Button = ({title, link}) => (
   <ButtonContainer href={link}>
